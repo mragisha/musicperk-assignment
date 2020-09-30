@@ -1,0 +1,62 @@
+.add{
+    background: rgba(14, 137, 252, 0.98);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: white;
+}
+.createform{
+    background: rgba(14, 137, 252, 0.98);
+    border-radius: 5px;
+    color: white;
+    margin-top: 10vh;
+    margin-left: 18vw;
+    margin-bottom: 5vh;
+}
+.name,.email{
+    width: 99px;
+    height: 36px;
+    padding: 5px;
+    background: #E2AE5E;
+}
+.inp{
+    background-color: #C4C4C4;
+     padding: 5px;
+    margin-left: 10px;
+}
+.submit{
+    background: rgba(14, 137, 252, 0.98);
+    border-radius: 5px;
+    color: white;
+    width: 80%;
+    margin-bottom: 8vh;
+}
+.edit,.del{
+    background: rgba(14, 137, 252, 0.98);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+table.table-bordered{
+    border:1px solid black;
+    margin-top:20px;
+}
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+
+@media screen and (max-width: 768px){
+    .createform{
+        margin-left: 15vw;
+    }
+    .inp{
+        margin-left: 8vw;
+        width: 80%;
+    }
+    .submit{
+        width: 100%;
+    }
+   
+}
